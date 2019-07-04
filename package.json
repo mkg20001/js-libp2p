@@ -13,7 +13,9 @@
     "build": "gulp build",
     "lint": "aegir-lint",
     "coverage": "aegir-coverage",
-    "coverage-publish": "aegir-coverage publish"
+    "coverage-publish": "aegir-coverage publish",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -69,7 +71,8 @@
     "multiaddr": "^2.3.0",
     "peer-book": "~0.4.0",
     "peer-id": "~0.8.7",
-    "peer-info": "~0.9.2"
+    "peer-info": "~0.9.2",
+    "snyk": "^1.189.0"
   },
   "contributors": [
     "David Dias <daviddias.p@gmail.com>",
@@ -78,5 +81,6 @@
     "Richard Littauer <richard.littauer@gmail.com>",
     "greenkeeperio-bot <support@greenkeeper.io>",
     "mayerwin <mayerwin@users.noreply.github.com>"
-  ]
+  ],
+  "snyk": true
 }
