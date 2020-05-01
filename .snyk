@@ -1,0 +1,154 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - peer-id > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - peer-id > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-swarm > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-swarm > ip-address > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - peer-info > peer-id > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-swarm > peer-id > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - peer-book > peer-id > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-ping > libp2p-crypto > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - peer-id > libp2p-crypto > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - peer-info > peer-id > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-swarm > peer-id > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - peer-book > peer-id > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-swarm > multistream-select > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-swarm > peer-info > peer-id > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - peer-book > peer-info > peer-id > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-swarm > libp2p-identify > peer-id > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-ping > libp2p-crypto > multihashing-async > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - peer-id > libp2p-crypto > multihashing-async > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - peer-info > peer-id > libp2p-crypto > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-swarm > peer-id > libp2p-crypto > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - peer-book > peer-id > libp2p-crypto > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-ping > libp2p-crypto > libp2p-crypto-secp256k1 > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-swarm > peer-info > peer-id > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - peer-book > peer-info > peer-id > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-swarm > libp2p-identify > peer-id > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-swarm > libp2p-identify > peer-info > peer-id > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - peer-info > peer-id > libp2p-crypto > multihashing-async > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-swarm > peer-id > libp2p-crypto > multihashing-async > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - peer-book > peer-id > libp2p-crypto > multihashing-async > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-ping > libp2p-crypto > libp2p-crypto-secp256k1 > multihashing-async > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > multihashing-async > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-ping > libp2p-crypto > libp2p-crypto-secp256k1 > libp2p-crypto > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > libp2p-crypto > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-swarm > peer-info > peer-id > libp2p-crypto > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - peer-book > peer-info > peer-id > libp2p-crypto > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-swarm > libp2p-identify > peer-id > libp2p-crypto > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - peer-info > peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-swarm > peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - peer-book > peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-swarm > libp2p-identify > peer-info > peer-id > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-ping > libp2p-crypto > libp2p-crypto-secp256k1 > libp2p-crypto > multihashing-async > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > libp2p-crypto > multihashing-async > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-swarm > peer-info > peer-id > libp2p-crypto > multihashing-async > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - peer-book > peer-info > peer-id > libp2p-crypto > multihashing-async > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-swarm > libp2p-identify > peer-id > libp2p-crypto > multihashing-async > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - peer-info > peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > multihashing-async > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-swarm > peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > multihashing-async > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - peer-book > peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > multihashing-async > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - peer-info > peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > libp2p-crypto > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-swarm > peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > libp2p-crypto > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - peer-book > peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > libp2p-crypto > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-swarm > libp2p-identify > peer-info > peer-id > libp2p-crypto > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-swarm > peer-info > peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - peer-book > peer-info > peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-swarm > libp2p-identify > peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - peer-info > peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > libp2p-crypto > multihashing-async > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-swarm > peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > libp2p-crypto > multihashing-async > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - peer-book > peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > libp2p-crypto > multihashing-async > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-swarm > libp2p-identify > peer-info > peer-id > libp2p-crypto > multihashing-async > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-swarm > peer-info > peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > multihashing-async > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - peer-book > peer-info > peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > multihashing-async > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-swarm > libp2p-identify > peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > multihashing-async > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-swarm > peer-info > peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > libp2p-crypto > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - peer-book > peer-info > peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > libp2p-crypto > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-swarm > libp2p-identify > peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > libp2p-crypto > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-swarm > libp2p-identify > peer-info > peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-swarm > peer-info > peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > libp2p-crypto > multihashing-async > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - peer-book > peer-info > peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > libp2p-crypto > multihashing-async > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-swarm > libp2p-identify > peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > libp2p-crypto > multihashing-async > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-swarm > libp2p-identify > peer-info > peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > multihashing-async > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-swarm > libp2p-identify > peer-info > peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > libp2p-crypto > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
+    - libp2p-swarm > libp2p-identify > peer-info > peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > libp2p-crypto > multihashing-async > async > lodash:
+        patched: '2020-05-01T06:11:29.453Z'
